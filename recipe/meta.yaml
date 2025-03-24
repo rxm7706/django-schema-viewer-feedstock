@@ -1,5 +1,5 @@
 {% set name = "django-schema-viewer" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_schema_viewer-{{ version }}.tar.gz
-  sha256: 4c9316a3831e6015270b432404f1589b6b711b13ebc6d797b1fce82d1fa7281e
+  sha256: d5bdaa7cfec0827d1232f1d79f746ea5a7f42bf6abf2359615084acb230b2d1c
 
 build:
   noarch: python
